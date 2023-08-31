@@ -10,7 +10,7 @@ function NavBar({ color, title }) {
     <nav className={`navbar ${colors[color]}`}>
       <div className="container-fluid">
         <div className="navbar-header">
-          <span className="navbar-brand">{title}</span>
+          <span className="navbar-brand float-start">{title}</span>
         </div>
       </div>
     </nav>
